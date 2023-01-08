@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "work sans", sans-serif;
+}
+/* header */
+.header-container{
+    background-image: url(../images/banner3.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: cover;
+    padding: 200px;
+    display: flex;
+    justify-content: end;
+}
+.header-title{
+    max-width: 525px;
+}
+.header-title-text{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #ffffff;    
+}
+.header-description-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 25px 0;   
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    background: darkorange;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: greenyellow;
+    border: none;
+}
+/* header */
+
+/* failure */
+
+.failures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 130px 150px;
+}   
+.failures-text{
+    max-width: 416px;
+    align-items: center;
+    gap: 87;
+}
+.failures-title-text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failures-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin: 25px 0;
+}
+.failures-sub-description{
+    width: 349px;
+    height: 194px;
+    list-style-image: url("../images/icons/check\ 1.svg");
+}
+/* failures */
+
+/* plan */
+.plan-container{
+    margin: 100px 150px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+.plan-container-box{
+    justify-content: space-between;
+    display: flex;
+}
+.plan-box{
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 10px 0;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+/* plan */
+
+/* call me */
+.call-container{
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95,172,0)100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 150px;
+    padding: 60px;
+}
+.call-text{
+    max-width: 500px;
+}
+.call-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* call me */
+
+/* footer */
+.footer-container{
+    background: #151414;
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left-content{
+    max-width: 400px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.social-icon{
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle-content{
+    max-width: 400px;
+}
+.footer-right-content{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.footer-input{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #f3f3f3;
+    margin: 20px 0;
+    display: block;
+    padding: 20px;
+}
+/* footer */
